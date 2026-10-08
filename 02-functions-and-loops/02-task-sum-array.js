@@ -8,6 +8,7 @@
 
 function sumArray(numbers) {
   // your code here
+  return numbers.reduce((sum, num) => sum + num, 0);  
 }
 
 // ----- Checks (do not edit) -----

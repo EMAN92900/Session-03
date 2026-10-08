@@ -8,6 +8,7 @@
 
 function isLeapYear(year) {
   // your code here
+  return (year % 4 === 0 && year % 100 !== 0) || (year % 400 === 0);  
 }
 
 // ----- Checks (do not edit) -----

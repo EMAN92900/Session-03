@@ -7,6 +7,11 @@
 
 function maxOfTwo(a, b) {
   // your code here
+  if (a > b) {
+    return a;
+  } else {
+    return b;
+  }
 }
 
 // ----- Checks (do not edit) -----

@@ -12,6 +12,7 @@ function maxOfTwo(a, b) {
 
 function maxOfThree(a, b, c) {
   // your code here
+  return maxOfTwo(maxOfTwo(a, b), c);   
 }
 
 // ----- Checks (do not edit) -----

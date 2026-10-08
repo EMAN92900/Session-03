@@ -8,6 +8,11 @@
 
 function repeatWord(word, times) {
   // your code here
+  let result = "";
+  for (let i = 0; i < times; i++) {
+    result += word;
+  } 
+  return result;  
 }
 
 // ----- Checks (do not edit) -----

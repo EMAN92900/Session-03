@@ -8,6 +8,11 @@
 
 function reverseString(text) {
   // your code here
+  let result = "";
+  for (let i = text.length - 1; i >= 0; i--) {
+    result += text[i];
+  }
+  return result;  
 }
 
 // ----- Checks (do not edit) -----

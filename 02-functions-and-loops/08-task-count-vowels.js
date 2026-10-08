@@ -9,6 +9,7 @@
 
 function countVowels(text) {
   // your code here
+  return text.split('').filter(letter => 'aeiou'.includes(letter)).length;  
 }
 
 // ----- Checks (do not edit) -----

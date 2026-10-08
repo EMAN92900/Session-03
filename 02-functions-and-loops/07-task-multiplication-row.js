@@ -8,6 +8,7 @@
 
 function multiplicationRow(n) {
   // your code here
+  return Array.from({ length: 10 }, (_, i) => n * (i + 1));   
 }
 
 // ----- Checks (do not edit) -----
